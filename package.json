@@ -1,0 +1,33 @@
+{
+  "name": "skin-cancer-backend",
+  "version": "1.0.0",
+  "description": "API for cancer prediction",
+  "keywords": [],
+  "homepage": "https://github.com/YuhaHabib/cancer-api#readme",
+  "bugs": {
+    "url": "https://github.com/YuhaHabib/cancer-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuhaHabib/cancer-api.git"
+  },
+  "license": "ISC",
+  "author": "Yh4",
+  "type": "commonjs",
+  "main": "./server/server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "start:dev": "nodemon ./server/server.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"  
+  }
+}
